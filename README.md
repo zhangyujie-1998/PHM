@@ -1,5 +1,5 @@
 # [Perception-Guided Quality Metric of 3D Point Clouds Using Hybrid Strategy (TIP2024)](https://arxiv.org/abs/2407.03885)
-by Yujie Zhang, Qi Yang, Yifei Zhou, Xiaozhong Xu, Le Yang, Yiling Xu
+by Yujie Zhang, Qi Yang,  Yiling Xu, Shan Liu
 
 This respository is about a full-reference point cloud quality metric based on a hybrid strategy. The key idea is that **the human visual system (HVS) dynamically tackles visual information according to different distortion levels (i.e., distortion detection for high-quality samples and appearance perception for low-quality samples)**.
 
