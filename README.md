@@ -1,7 +1,7 @@
-# [TCDM: Transformational Complexity Based Distortion Metric for Perceptual Point Cloud Quality Assessment (TVCG2023)](https://arxiv.org/abs/2407.03885)
+# [Perception-Guided Quality Metric of 3D Point Clouds Using Hybrid Strategy (TIP2024)](https://arxiv.org/abs/2407.03885)
 by Yujie Zhang, Qi Yang, Yifei Zhou, Xiaozhong Xu, Le Yang, Yiling Xu
 
-This respository is about a full-reference point cloud quality metric based on the transformational complexity. The key idea is that **the quality of one distorted point cloud can be quantified as the complexity or the amount of effort of transforming it into its corresponding reference**.
+This respository is about a full-reference point cloud quality metric based on a hybrid strategy. The key idea is that **the human visual system (HVS) dynamically tackles visual information according to different distortion levels (i.e., distortion detection for high-quality samples and appearance perception for low-quality samples)**.
 
 ## Introduction
 ![image text](https://github.com/zhangyujie-1998/PHM/blob/main/fig/framework.png)
