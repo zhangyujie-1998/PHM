@@ -44,7 +44,7 @@ parfor i = 1:patch_num
 
    if (size(pc_d_coor, 1) > param.k) && (size(pc_r_coor, 1) > param.k)
         [pc_r_sgwt, smoothness_r, G_r] = calculate_wavelet(pc_r_coor, pc_r_color, param);
-        [pc_d_sgwt, smoothness_d, G_d] = calculate_wavelet(pc_d_coor, pc_d_color, param)
+        [pc_d_sgwt, smoothness_d, G_d] = calculate_wavelet(pc_d_coor, pc_d_color, param);
         sim_smoothness(i,:) = similarity(smoothness_r, smoothness_d, T); % Calculate the graph smoothness of geomtry information
         sim_WCM(i,:) = calculate_correlogram(pc_r_sgwt,  pc_d_sgwt, G_r, G_d, param, T); %Calculate the WCM of attribute information
    else
