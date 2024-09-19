@@ -27,7 +27,7 @@ It is expected to output
 
 
 - Quantitative comparison
-![image text]((https://github.com/zhangyujie-1998/PHM/blob/main/fig/result.png))
+![image text](https://github.com/zhangyujie-1998/PHM/blob/main/fig/result.png)
 
 
 - Results reproduction
