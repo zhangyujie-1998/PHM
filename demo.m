@@ -12,7 +12,7 @@ addpath(genpath('gspbox/'));
 
 %% Parameter setting
 param = {};
-if ~isfield(param, 'type'), param.type = 'abspline3'; end % Wavelet type
+if ~isfield(param, 'type'), param.type = 'abspline3'; end % Wavelet type, other type: 'meyer', 'mexican_hat', 'simple_tf', 'itersine', 'half_cosine'
 if ~isfield(param, 'Nscales'), param.Nscales = 4; end % The number of wavelet subbands
 if ~isfield(param, 'k'), param.k = 10; end % The KNN number for graph construction
 if ~isfield(param, 'AR_order'), param.AR_order = 20; end % The order of auto-regressive model
