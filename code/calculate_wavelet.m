@@ -31,8 +31,6 @@ switch param.type
         g = gsp_design_itersine(G ,param.Nscales);
     case 'half_cosine'
         g = gsp_design_half_cosine(G, param.Nscales);
-    case 'warp'
-        g = gsp_design_warped_translates(G, param.Nscales);
     otherwise
         error('Unknown wavelet type')
 end
