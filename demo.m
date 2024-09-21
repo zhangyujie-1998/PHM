@@ -22,7 +22,7 @@ if ~isfield(param, 'bin_num'), param.bin_num = 50; end % The bin number of WCM
 
 %% Data loading
 pt_r = pcread('longdress.ply'); % Reference PC
-pt_d = pcread('longdress_vpcc_r01.ply'); % Distored PC
+pt_d = pcread('longdress_vpcc_r01.ply'); % Distorted PC
 pt_fast = pcread('longdress_fps.ply'); % Sampled points of the reference
 
 
