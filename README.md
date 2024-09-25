@@ -36,7 +36,7 @@ The experiment results are related to the sampled seeds used for space segmentat
 
 
 ## Citation
-If you find this work is helpful, please cite our paper
+If you find this work is helpful, please consider citing:
 ```
 @article{zhang2024perception,
   title={Perception-Guided Quality Metric of 3D Point Clouds Using Hybrid Strategy},
