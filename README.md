@@ -39,9 +39,10 @@ The experiment results are related to the sampled seeds used for space segmentat
 If you find this work is helpful, please consider citing:
 ```
 @article{zhang2024perception,
-  title={Perception-Guided Quality Metric of 3D Point Clouds Using Hybrid Strategy},
+  title={Perception-guided quality metric of 3D point clouds using hybrid strategy},
   author={Zhang, Yujie and Yang, Qi and Xu, Yiling and Liu, Shan},
-  journal={arXiv preprint arXiv:2407.03885},
-  year={2024}
+  journal={IEEE Transactions on Image Processing},
+  year={2024},
+  publisher={IEEE}
 }
 ```
